@@ -8,7 +8,7 @@ This neuron use the raspberrypi camera to take pictures (can be modified for tak
 ## Installation
 
   ```
-  kalliope install --git-url https://github.com/bacardi55/kalliope-picamera.git
+  kalliope install --git-url https://github.com/mikolindstrom/camera.git
   ```
 
 ## Options
@@ -34,9 +34,3 @@ picture file will be named: "pi_" + datetime.datetime.now() + ".jpg"
           timer: 1
 ```
 
-
-
-
-
-* [Blog post about this neuron](http://bacardi55.org/2016/12/26/kalliope-raspberrypi-camera-neuron.html)
-* [My posts about kalliope](http://bacardi55.org/kalliope.html)
