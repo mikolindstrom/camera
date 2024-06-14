@@ -1,0 +1,12 @@
+- name: Kalliope camera neuron install
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: picamera
+        version: 1.12
+        executable: pip3
